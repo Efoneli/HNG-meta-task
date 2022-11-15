@@ -7,7 +7,8 @@ import logo2 from '../assets/logo2.png';
 function Footer() {
   return (
     <div>
-      <h1>i am a footer</h1>
+      <h1>hhdr</h1>
+      <p>rock</p>
     </div>
   )
 }
