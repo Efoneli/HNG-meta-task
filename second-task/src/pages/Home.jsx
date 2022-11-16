@@ -18,44 +18,44 @@ import Footer from '../components/Footer';
 function App() {
   
   return (
-    <div class='h-screen p-8 text-[#434343]'>
+    <div className='h-screen text-[#434343]'>
    
-      <div class='flex justify-between items-center p-4'>
-        <div class='p-4'>
-          <p class='text-4xl font-bold text-[#434343]'>
-            Rent a <span class='text-[#A02279]'>Place</span> far away from <br /> <span class='text-[#A02279]'>Home</span> in the <span class='text-[#A02279]'>Metaverse</span>
+      <div className='flex justify-between items-center p-6  max-sm:flex-col-reverse'>
+        <div className='p-4'>
+          <p className='text-4xl font-bold text-[#434343] py-8  leading-10'>
+            Rent a <span className='text-[#A02279]'>Place</span> far away from <br /> <span className='text-[#A02279]'>Home</span> in the <span className='text-[#A02279]'>Metaverse</span>
           </p>
-          <p class='font-bold text-[#434343]'>
+          <p className='font-bold text-[#434343] leading-6'>
             We provide you access to luxury and affordable houses <br /> in the metaverse, get a chance to turn your <br /> imagination to your comfort zone.
           </p>
-          <div class='pt-5'>
-            <input class='border-solid border-2 border-grey-500 rounded-md px-2' placeholder='Search for location'/>
+          <div className='pt-5'>
+            <input className='border-solid border-2 border-grey-500 rounded-md px-2' placeholder='Search for location'/>
             <button className='bg-[#A02279] text-white rounded-r-lg px-3 outline-none focus:outline-none'>Search</button>
           </div>
         </div>
         <div>
-          < img class='' src={log1} alt='img' />
+          < img className='' src={log1} alt='img' />
         </div>
       </div>
 
-      <div class='bg-[#A02279] flex justify-around items-center'>
+      <div className='bg-[#A02279] flex justify-around items-center max-sm:flex-col gap-4'>
         <img src={mbToken} alt='mbToken' />
         <img src={metaMask} alt='metaMask' />
         <img src={openSea} alt='opensea' />
       </div>
 
-      <div class='flex flex-col items-center justify-center bg-white'>
-        <p class='text-2xl text-black font-bold p-4'>Inspiration for your next adventure</p>
-        <div class='grid lg:grid-cols-4 gap-4 sm:grid-cols-2 md:grid-cols-3'>
+      <div className='flex flex-col items-center justify-center bg-white mb-8 p-6'>
+        <p className='text-2xl text-black font-bold p-4'>Inspiration for your next adventure</p>
+        <div className='grid lg:grid-cols-4 gap-4 sm:grid-cols-2 md:grid-cols-3'>
 
-        <div class='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
+        <div className='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
             <img src={Frame1} alt='' />
-            <div class='mt-2'>
-              <div class='flex justify-between mb-2'>
+            <div className='mt-2'>
+              <div className='flex justify-between mb-2'>
               <p>Desert king</p>
-              <p class='text-bold'>1MBT per night</p>
+              <p className='text-bold'>1MBT per night</p>
               </div>
-              <div class='flex justify-between mb-2'>
+              <div className='flex justify-between mb-2'>
                 <p>2345km away</p>
                 <p>available for 2 weeks stay</p>
               </div>
@@ -63,14 +63,14 @@ function App() {
             </div>
           </div>
 
-          <div class='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
+          <div className='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
             <img src={Frame3} alt='' />
-            <div class='mt-2'>
-              <div class='flex justify-between mb-2'>
+            <div className='mt-2'>
+              <div className='flex justify-between mb-2'>
               <p>Desert king</p>
-              <p class='text-bold'>1MBT per night</p>
+              <p className='text-bold'>1MBT per night</p>
               </div>
-              <div class='flex justify-between mb-2'>
+              <div className='flex justify-between mb-2'>
                 <p>2345km away</p>
                 <p>available for 2 weeks stay</p>
               </div>
@@ -78,14 +78,14 @@ function App() {
             </div>
           </div>
 
-          <div class='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
+          <div className='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
             <img src={Frame4} alt='' />
-            <div class='mt-2'>
-              <div class='flex justify-between mb-2'>
+            <div className='mt-2'>
+              <div className='flex justify-between mb-2'>
               <p>Desert king</p>
-              <p class='text-bold'>1MBT per night</p>
+              <p className='text-bold'>1MBT per night</p>
               </div>
-              <div class='flex justify-between mb-2'>
+              <div className='flex justify-between mb-2'>
                 <p>2345km away</p>
                 <p>available for 2 weeks stay</p>
               </div>
@@ -93,14 +93,14 @@ function App() {
             </div>
           </div>
 
-          <div class='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
+          <div className='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
             <img src={Frame5} alt='' />
-            <div class='mt-2'>
-              <div class='flex justify-between mb-2'>
+            <div className='mt-2'>
+              <div className='flex justify-between mb-2'>
               <p>Desert king</p>
-              <p class='text-bold'>1MBT per night</p>
+              <p className='text-bold'>1MBT per night</p>
               </div>
-              <div class='flex justify-between mb-2'>
+              <div className='flex justify-between mb-2'>
                 <p>2345km away</p>
                 <p>available for 2 weeks stay</p>
               </div>
@@ -108,14 +108,14 @@ function App() {
             </div>
           </div>
 
-          <div class='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
+          <div className='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
             <img src={Frame51} alt='' />
-            <div class='mt-2'>
-              <div class='flex justify-between mb-2'>
+            <div className='mt-2'>
+              <div className='flex justify-between mb-2'>
               <p>Desert king</p>
-              <p class='text-bold'>1MBT per night</p>
+              <p className='text-bold'>1MBT per night</p>
               </div>
-              <div class='flex justify-between mb-2'>
+              <div className='flex justify-between mb-2'>
                 <p>2345km away</p>
                 <p>available for 2 weeks stay</p>
               </div>
@@ -123,14 +123,14 @@ function App() {
             </div>
           </div>
 
-          <div class='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
+          <div className='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
             <img src={Frame6} alt='' />
-            <div class='mt-2'>
-              <div class='flex justify-between mb-2'>
+            <div className='mt-2'>
+              <div className='flex justify-between mb-2'>
               <p>Desert king</p>
-              <p class='text-bold'>1MBT per night</p>
+              <p className='text-bold'>1MBT per night</p>
               </div>
-              <div class='flex justify-between mb-2'>
+              <div className='flex justify-between mb-2'>
                 <p>2345km away</p>
                 <p>available for 2 weeks stay</p>
               </div>
@@ -138,14 +138,14 @@ function App() {
             </div>
           </div>
 
-          <div class='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
+          <div className='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
             <img src={Frame7} alt='' />
-            <div class='mt-2'>
-              <div class='flex justify-between mb-2'>
+            <div className='mt-2'>
+              <div className='flex justify-between mb-2'>
               <p>Desert king</p>
-              <p class='text-bold'>1MBT per night</p>
+              <p className='text-bold'>1MBT per night</p>
               </div>
-              <div class='flex justify-between mb-2'>
+              <div className='flex justify-between mb-2'>
                 <p>2345km away</p>
                 <p>available for 2 weeks stay</p>
               </div>
@@ -153,14 +153,14 @@ function App() {
             </div>
           </div>
 
-          <div class='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
+          <div className='max-w-sm w-full rounded-lg p-2 shadow-2xl border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r leading-normal'>
             <img src={Frame8} alt='' />
-            <div class='mt-2'>
-              <div class='flex justify-between mb-2'>
+            <div className='mt-2'>
+              <div className='flex justify-between mb-2'>
               <p>Desert king</p>
-              <p class='text-bold'>1MBT per night</p>
+              <p className='text-bold'>1MBT per night</p>
               </div>
-              <div class='flex justify-between mb-2'>
+              <div className='flex justify-between mb-2'>
                 <p>2345km away</p>
                 <p>available for 2 weeks stay</p>
               </div>
@@ -171,14 +171,15 @@ function App() {
         </div>
       </div>
 
-      <div class='flex justify-between items-center bg-[#A02279] p-8 text-white'>
+      <div className='flex justify-between items-center leading-10 bg-[#A02279] p-8 text-white max-sm:flex-col-reverse'>
         <div>
-          <p class='text-2xl mb-4'>Metabnb NFTs</p>
-          <p class='mb-4'>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTsgives our customer access to loads of our exclusive services.</p>
-          <button class='text-[#A02279] bg-white rounded-lg p-2'>Learn more</button>
+          <p className='text-2xl font-extrabold mb-4'>Metabnb NFTs</p>
+          <p className='mb-4'>Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTsgives our customer access to loads of our exclusive services.</p>
+          <button className='text-[#A02279] bg-white rounded-lg px-6'>Learn more</button>
         </div>
-        <img class='' src={Frame3pic} alt='' />
+        <img className='' src={Frame3pic} alt='' />
       </div>
+      <Footer />
     </div>
   );
 }

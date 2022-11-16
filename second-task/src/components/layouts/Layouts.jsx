@@ -6,14 +6,13 @@ import Header from '../Header';
 
 const Layouts = () => {
   return (
-    <div>
+    <div className='bg-white'>
        <Header /> 
 
         <main style={{ minHeight: '60vh' }}>
             <Outlet />
         </main>
 
-        <Footer />
     </div>
   )
 }
